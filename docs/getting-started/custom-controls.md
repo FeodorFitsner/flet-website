@@ -37,8 +37,7 @@ ft.app(target=main)
 ```
 <img src="/img/docs/custom-controls/styled-controls.png" className="screenshot-20" />
 
-See example of using styled controls in [Calculator App tutotial](/docs/tutorials/python-calculator#styled-controls).
-
+Blah blah blah
 ### Handling events
 
 Similar to properties, you can pass event handlers as parameters into your custom control class constructor:
