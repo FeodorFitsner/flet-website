@@ -4,7 +4,7 @@ sidebar_label: Calculator app
 slug: python-calculator
 ---
 
-In this tutorial we will show you, step-by-step, how to create a Calculator app in Python using Flet framework and publish it as a desktop, mobile or web app. The app is [a simple console program](https://github.com/flet-dev/examples/blob/main/python/tutorials/calc/calc.py), yet it is a multi-platform application with similar to iPhone calculator app UI:
+Let's change this paragraph to AAAA...
 
 <img src="/img/docs/calc-tutorial/calc-app.gif" className="screenshot-40" />
 
@@ -164,7 +164,7 @@ Here is the code for adding the container to the page:
     page.add(
         ft.Container(
             width=350,
-            bgcolor=ft.colors.BLACK,
+            bgcolor=ft.colors.GREEN,
             border_radius=ft.border_radius.all(20),
             padding=20,
             content=ft.Column(
@@ -187,15 +187,15 @@ result = ft.Text(value="0", color=ft.colors.WHITE, size=20)
 
 For the buttons, if we look again at the UI we are aiming to achieve, there are 3 types of buttons:
 1. **Digit Buttons**. They have dark grey background color and white text, size is the same for all.
-2. **Action Buttons**.  They have orange background color and white text, size is the same for all except `0` button which is twice as large.
-3. **Extra action buttons**. They have light grey background color and dark text, size is the same for all.
+2. **Action Buttons**.
+3. **Extra action buttons**.
 
 The buttons will be used mutiple time in the program, so we will be creating custom [Styled Controls](/docs/getting-started/custom-controls#styled-controls) to reuse the code.
 
 Since all those types should inherit from `ElevatedButton` class and have common `text` and `expand` properties, let's create a parent `CalcButton` class:
 ```python
     class CalcButton(ft.ElevatedButton):
-        def __init__(self, text, expand=1):
+        def __init__(self, text, expand=1):ddddaaaa
             super().__init__()
             self.text = text
             self.expand = expand
