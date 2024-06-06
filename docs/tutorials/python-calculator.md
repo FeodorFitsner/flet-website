@@ -176,7 +176,7 @@ Here is the code for adding the container to the page:
     )
 ```
 
-### Styled Controls
+### Styled Controls 111
 
 To complete the UI portion of the program, we need to update style for result text and buttons to look similar to iPhone calculator app.
 
