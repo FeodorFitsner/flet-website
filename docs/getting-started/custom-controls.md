@@ -3,9 +3,9 @@ title: Custom controls
 sidebar_label: Custom controls
 ---
 
-While Flet provides 100+ built-in controls that can be used on their own, the real beauty of programming with Flet is that all those controls can be utilized for creating your own reusable UI components using Python object-oriented programming concepts. Change 1.
+While Flet provides 100+ built-in controls that can be used independently, the real power of programming with Flet lies in the ability to utilize these controls for creating your own reusable UI components using Python's object-oriented programming concepts.
 
-You can create custom controls in Python by styling and/or combining existing Flet controls. CHange 2.
+You can create custom controls in Python by styling and/or combining existing Flet controls.
 
 ## Styled controls
 
@@ -21,7 +21,7 @@ class MyButton(ft.ElevatedButton)
         self.color = ft.colors.GREEN_800
         self.text = text     
 ```
-Your control has a constructor to customize properties and events and pass custom data. Note that you must call `super().__init__()` in your own constructor to have access to the properties and methods of the Flet control from which youre inherit.
+Your control will have a constructor to customize properties, events, and pass custom data.  Remember to call `super().__init__()` within your own constructor to gain access to the properties and methods of the Flet control you are inheriting from.
 
 Now you can use your brand-new control in your app 123:
 
