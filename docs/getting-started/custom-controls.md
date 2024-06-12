@@ -21,9 +21,9 @@ class MyButton(ft.ElevatedButton)
         self.color = ft.colors.GREEN_800
         self.text = text     
 ```
-Your control will have a constructor to customize properties, events, and pass custom data.  Remember to call `super().__init__()` within your own constructor to gain access to the properties and methods of the Flet control you are inheriting from.
+Your control will have a constructor to customize properties, events, and pass custom data. Remember to call `super().__init__()` within your own constructor to gain access to the properties and methods of the Flet control you are inheriting from.
 
-Now you can use your brand-new control in your app 123:
+Now you can use your brand-new control in your app.
 
 ```python
 import flet as ft
